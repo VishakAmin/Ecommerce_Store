@@ -10,7 +10,7 @@
     "build": "cd projfrontend && npm run build",
     "install-client": "cd projfrontend && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "dev": "concurrently \"npm run backend\" \"npm run start --prefix frontend\""
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix projfrontend\""
   },
   "engine": {
     "node": "10.19.0",
