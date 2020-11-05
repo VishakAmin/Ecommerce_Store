@@ -24,14 +24,14 @@ const Base = ({
                     <h4>If U got any Question Feel free to reach out</h4>
                     <button className="btn btn-warning btn-lg ">Contact Us</button>
                 </div>
-                <div className="container">
+                <div style={{ textAlign: "center" }} className="container">
                     <span className="text-muted">
-                        An Amazing MERN BootCamp
-        </span>
+                        Made with  &#10084; By Vishak Amin
+                    </span>
                 </div>
             </footer>
 
-        </div>
+        </div >
     )
 
 export default Base;

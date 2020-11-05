@@ -4,7 +4,6 @@ var Schema = mongoose.Schema;
 const crypto = require('crypto');
 const uuidv1 = require('uuid/v1');
 
-
 var userSchema = new Schema({
     name: {
         type: String,
