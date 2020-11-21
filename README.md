@@ -1,4 +1,4 @@
-# Ecommerce_Store
+# Ecommerce Store
 # An Ecommerce Website Build Using MERN Stack.
 
 ## [Live Site](https://vishak-ecommerce-store.herokuapp.com)
