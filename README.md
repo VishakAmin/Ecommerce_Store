@@ -5,12 +5,12 @@
 
 Consists of two Dashboard: Admin and User
 
-Admin Credentails:
-Email:admin@admin.com
-Password: 123456
+Admin Credentails:<br />
+Email:admin@admin.com<br />
+Password: 123456<br />
 
-User Credentails:
-Email: user@user.com
-Password: 12356
+User Credentails:<br />
+Email: user@user.com<br />
+Password: 12356<br />
 
 
