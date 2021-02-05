@@ -52,8 +52,8 @@ app.listen(port, () => {
 });
 
 
-if (process.env.NODE_ENV === "production"){
+if (process.env.NODE_ENV === "production") {
     app.use(express.static('projfrontend/build'))
-    
+
 
 }

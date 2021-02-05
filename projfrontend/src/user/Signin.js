@@ -102,7 +102,7 @@ const Signin = () => {
                                 type="password"
                             />
                         </div>
-                        <button onClick={onSubmit} className="btn btn-success btn-block">
+                        <button onClick={onSubmit} className="btn btn-primary btn-block">
                             Submit
             </button>
                     </form>
@@ -112,12 +112,12 @@ const Signin = () => {
     };
 
     return (
-        <Base title="Sign In page" description="A page for user to sign in!">
+        <Base title="Sign In page" description="Please sign in by using your email and password">
             {loadingMessage()}
             {errorMessage()}
             {signInForm()}
             {performRedirect()}
-            <p className="text-white text-center">{JSON.stringify(values)}</p>
+            {/* <p className="text-white text-center">{JSON.stringify(values)}</p> */}
         </Base>
     );
 };

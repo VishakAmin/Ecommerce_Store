@@ -21,7 +21,7 @@ const Cart = () => {
         return (
             <div>
                 <h2>
-                    This Section is to load Products</h2>
+                    Products in the Cart</h2>
                 {products.map((product, index) => (
                     <Card
                         key={index}
@@ -40,7 +40,7 @@ const Cart = () => {
         return (
             <div>
                 <h2>
-                    This Section is to load Checkout</h2>
+                    Products in the Cart</h2>
             </div>
         )
     }
@@ -49,10 +49,10 @@ const Cart = () => {
         <Base title="Cart Page" description="Ready To Checkout">
             <div className="row text-center">
                 <div className="col-6">
-                    {products.length>0 ? loadAllProducts(products): (<h3>No products in Cart</h3>)}
+                    {products.length > 0 ? loadAllProducts(products) : (<h3>No products in Cart</h3>)}
                 </div>
                 <div className="col-6">
-                    <PaymentBraintree products ={products} setReload={setReload}/>
+                    <PaymentBraintree products={products} setReload={setReload} />
                 </div>
             </div>
         </Base>

@@ -72,7 +72,7 @@ const Signup = () => {
                                 value={password}
                             />
                         </div>
-                        <button onClick={onSubmit} className="btn btn-success btn-block">
+                        <button onClick={onSubmit} className="btn btn-primary btn-block">
                             Submit
             </button>
                     </form>
@@ -109,11 +109,10 @@ const Signup = () => {
 
 
     return (
-        <Base title="Sign up page" description="A page for user to sign up!">
+        <Base title="Sign up page" description="Feel in the details to Sign Up">
             {successMessage()}
             {errorMessage()}
             {signUpForm()}
-            <p className="text-light text-center">{JSON.stringify(values)}</p>
         </Base>
     );
 };
